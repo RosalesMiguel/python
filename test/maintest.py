@@ -1,4 +1,5 @@
-mylist = [1, 2, 3]
-mylist.append(19)
-mylist.clear()
-print(mylist)
+f = open("data.txt", "a+")
+f.write("\n20")
+f.close()
+f = open("data.txt", "r+")
+print(f.readlines())
